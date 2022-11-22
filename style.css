@@ -1,0 +1,173 @@
+.nav-links{
+    flex:1;
+    display: inline-block;
+    
+}
+.nav-links ul li{
+    list-style:none ;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(7, 7, 7);
+    font-style:inherit;
+    font-weight: 750;
+    text-decoration:none;
+    font-size: 13px;
+   
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height:2px ;
+    background-color: rgb(246, 238, 238);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    
+}   
+a:link, a:visited 
+{
+    background-color: #a257c4;
+    color: white;
+    font-size: 300%;
+    padding: 25px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+                  
+}
+body 
+{
+    background:rgb(255, 255, 255);
+}
+.button 
+{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button0 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #dc130f;
+         }
+.button0:hover {
+                background-color: #dc130f;
+                color: white;
+                }
+.button1 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #4CAF50;
+         }
+.button1:hover {
+                background-color: #4CAF50;
+                color: white;
+               }
+.button2 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #008CBA;
+         }
+         
+.button2:hover {
+                background-color: #008CBA;
+                color: white;
+               }
+.button3 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #5700ba;
+         }
+.button3:hover {
+                background-color: #5700ba;
+                color: white;
+               }
+.button4 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #ba0044;
+         }
+.button4:hover {
+                 background-color: #ba0044;
+                color: white;
+               }
+.button5 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #ba8800;
+         }
+.button5:hover {
+                background-color: #ba8800;
+                color: white;
+               }
+.button6 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #82ba00;
+         }
+.button6:hover {
+                background-color: #82ba00;
+                color: white;
+               }
+.button7 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #00aeba;
+        }
+.button7:hover {
+                background-color: #00aeba;
+                color: white;
+               }
+.button8 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #ba2500;
+         }
+.button8:hover {
+                background-color: #546a4b;
+                color: white;
+                }
+.button9 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #546a4b;
+         }
+.button9:hover {
+                background-color: #6f8a64;
+                color: white;
+               }
+.button10 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #ba00a1;
+          }
+.button10:hover {
+                 background-color: #ba00a1;
+                 color: white;
+                }
+.button11 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #3700ba;
+          }
+.button11:hover {
+                 background-color: #3700ba;
+                 color: white;
+                }
+body {
+        background-color:white;
+     }
