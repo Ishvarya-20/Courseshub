@@ -1,8 +1,3 @@
-.nav-links{
-    flex:1;
-    display: inline-block;
-    
-}
 .nav-links ul li{
     list-style:none ;
     display: inline-block;
@@ -26,16 +21,31 @@
     margin: auto;
     transition: 0.5s;
 }
-.nav-links ul li:hover::after{
-    width: 100%;
-    
-}   
-a:link, a:visited 
+.nav-links a
 {
-    background-color: #a257c4;
-    color: white;
+    background-color: #e46c16;
+    color: rgb(55, 6, 6);
     font-size: 300%;
     padding: 25px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+                  
+}
+
+.rrrr ul li 
+{
+    list-style:none ;
+    display: block;
+    padding: 8px 12px;
+    position: relative;
+}
+.rrrr a
+{
+    background-color: #57b2c4;
+    color: rgb(5, 0, 0);
+    font-size: 300%;
+    padding: 35px 35px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
